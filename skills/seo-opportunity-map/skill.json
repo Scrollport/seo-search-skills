@@ -3,7 +3,7 @@
   "schema_version": 2,
   "id": "seo-opportunity-map",
   "title": "Organic Opportunity Map",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "status": "verified",
   "customer_proven": false,
   "summary": "Compare a domain with its search competitors and produce a cited, prioritised organic opportunity map with demand, difficulty, recommended actions and explicit uncertainty.",
@@ -47,7 +47,8 @@
   "outputs": [
     "Target and competitor evidence snapshot",
     "Prioritised organic opportunity table with confidence labels",
-    "Recommended validation, content and technical next actions"
+    "Recommended validation, content and technical next actions",
+    "Reusable opportunity-map artifact and complete research receipt"
   ],
   "cost": {
     "currency": "USD",

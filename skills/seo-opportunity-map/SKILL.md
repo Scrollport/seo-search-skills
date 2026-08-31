@@ -1,6 +1,6 @@
 ---
 name: seo-opportunity-map
-description: Build a cited, prioritised organic opportunity map from a target domain, its search competitors and bounded keyword evidence.
+description: Build a cited, prioritised organic opportunity map from a target domain, its search competitors and bounded keyword evidence. Use for "find SEO opportunities," "keyword gap," "what should we rank for," "organic growth priorities," competitor keyword research, or deciding what content to create or refresh.
 license: MIT
 metadata:
   scrollport-status: verified
@@ -14,6 +14,16 @@ topics, and distinguish provider facts from agent inference.
 
 Use one authorized Scrollport connection and its `apps`, `discover`, `inspect`, `run`
 and `wallet` control tools. Never call a supplier directly.
+
+## Before starting
+
+Use any supplied product, positioning, audience or client brief before asking
+for inputs. If `.agents/product-marketing.md` exists, read it as background; do
+not treat its claims as evidence. Ask only for missing task-specific inputs.
+
+Route a user who already has one selected topic and wants a writer-ready plan to
+`seo-content-brief`. State that full technical auditing, continuous tracking,
+publishing, link outreach and ranking guarantees are outside this Skill.
 
 ## Outcome boundary
 
@@ -173,7 +183,8 @@ recommending new content.
 
 ## Deliverable
 
-Return:
+Use [the output template](assets/opportunity-map-template.md) or an equivalent
+structure. Return:
 
 1. a short scope and limitations note;
 2. a target baseline and selected-competitor summary;
@@ -185,6 +196,18 @@ Return:
 
 Every conclusion must identify whether it came from DataForSEO or local agent
 analysis. Cite the saved provider observation behind each top priority.
+
+## Quality checks
+
+Before delivery, confirm that:
+
+- the first recommendation follows business fit and evidence rather than raw
+  volume;
+- every priority names a page decision or the exact validation needed before
+  choosing one;
+- two searches or provider rows are not misrepresented as independent sources;
+- no sampled absence is phrased as a complete keyword gap; and
+- a human can understand the first action without reading provider schemas.
 
 ## Recovery and acceptance
 
