@@ -1,0 +1,58 @@
+{
+  "$schema": "../../skill.schema.json",
+  "schema_version": 2,
+  "id": "seo-search",
+  "title": "SEO and search",
+  "version": "1.0.0",
+  "status": "verified",
+  "customer_proven": false,
+  "summary": "Route an SEO request to the smallest verified function Skill that owns the requested deliverable.",
+  "outcome": "One explicit choice between opportunity mapping and evidence-led content briefing, with the selected function Skill loaded before execution.",
+  "boundary": "The router does not run catalog tools, combine workflows without a new checkpoint, provide continuous tracking, publish content or promise rankings.",
+  "category": "seo-search",
+  "capabilities": [
+    { "id": "seo-keyword-research", "tool_ids": ["dataforseo.ranked-keywords"] },
+    { "id": "organic-competitor-research", "tool_ids": ["dataforseo.organic-competitors"] },
+    { "id": "seo-keyword-analysis", "tool_ids": ["dataforseo.keyword-overview"] },
+    { "id": "web-search", "tool_ids": ["exa.search"] }
+  ],
+  "aliases": ["scrollport-seo", "scrollport-seo-planner"],
+  "license": "MIT",
+  "instruction_path": "SKILL.md",
+  "dependencies": {
+    "scrollport_control_tools": [],
+    "catalog_tools": [
+      { "tool_id": "dataforseo.ranked-keywords", "required": false, "purpose": "Used only after routing to SEO Opportunity Map." },
+      { "tool_id": "dataforseo.organic-competitors", "required": false, "purpose": "Used only after routing to SEO Opportunity Map." },
+      { "tool_id": "dataforseo.keyword-overview", "required": false, "purpose": "Used only after routing to a selected SEO function Skill." },
+      { "tool_id": "exa.search", "required": false, "purpose": "Used only after routing to SEO Content Brief." }
+    ],
+    "connected_apps": []
+  },
+  "inputs": [
+    "The SEO outcome or deliverable the user wants",
+    "Any supplied target domain, market, audience or selected topic"
+  ],
+  "outputs": [
+    "One selected verified function Skill and a concise reason",
+    "A clear boundary when no verified function Skill owns the request"
+  ],
+  "cost": {
+    "currency": "USD",
+    "model": "Routing is agent-side and makes no paid call.",
+    "trial_safe_max_usd": "0.000000",
+    "notes": "The selected function Skill presents and obtains approval for its own paid plan."
+  },
+  "approvals": [
+    "Ask before installing or updating a missing function Skill; paid approvals belong to the selected function Skill"
+  ],
+  "compatibility": [
+    "Agent Skills compatible host",
+    "The selected function Skill installed from the same pinned repository revision"
+  ],
+  "evidence": {
+    "verified_at": "2026-08-31",
+    "review_due_at": "2026-09-30",
+    "summary_path": "evidence/2026-08-31-routing-verification.md"
+  }
+}

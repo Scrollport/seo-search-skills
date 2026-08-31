@@ -1,0 +1,25 @@
+{
+  "$schema": "./registry.schema.json",
+  "schema_version": 2,
+  "repository": "https://github.com/Scrollport/seo-search-skills",
+  "skills": [
+    {
+      "id": "seo-search",
+      "path": "skills/seo-search",
+      "status": "verified",
+      "customer_proven": false
+    },
+    {
+      "id": "seo-opportunity-map",
+      "path": "skills/seo-opportunity-map",
+      "status": "verified",
+      "customer_proven": false
+    },
+    {
+      "id": "seo-content-brief",
+      "path": "skills/seo-content-brief",
+      "status": "verified",
+      "customer_proven": false
+    }
+  ]
+}
