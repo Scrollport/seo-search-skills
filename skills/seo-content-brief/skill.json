@@ -3,7 +3,7 @@
   "schema_version": 2,
   "id": "seo-content-brief",
   "title": "Evidence-led Content Brief",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "status": "verified",
   "customer_proven": false,
   "summary": "Validate a content topic with current search-demand signals and cited public sources, then produce a writer-ready brief with a supported angle, outline and measurable acceptance criteria.",
@@ -41,7 +41,8 @@
   "outputs": [
     "Primary topic and supporting-topic evidence",
     "Cited claim ledger with source roles and cautions",
-    "Writer-ready brief with angle, outline, exclusions and acceptance criteria"
+    "Writer-ready brief with angle, outline, exclusions and acceptance criteria",
+    "Reusable brief artifact and complete research receipt"
   ],
   "cost": {
     "currency": "USD",

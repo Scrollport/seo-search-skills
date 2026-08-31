@@ -1,6 +1,6 @@
 ---
 name: seo-search
-description: Route an SEO or search request to the smallest verified Scrollport SEO Skill that can produce the requested outcome.
+description: Route an SEO or search request to the smallest verified Scrollport Skill for opportunity research or a cited content brief. Use for "improve our SEO," "find organic opportunities," "keyword research," "content plan," or "SEO content brief" when the requested artifact is not yet clear.
 license: MIT
 metadata:
   scrollport-status: verified
@@ -12,11 +12,16 @@ Choose one outcome before selecting tools or spending credit. This router does
 not perform SEO research itself; it loads the smallest verified function Skill
 that owns the requested deliverable.
 
+Before routing, use any supplied positioning, audience or client brief. If the
+project contains `.agents/product-marketing.md`, read it as context; it is not
+evidence and does not replace the task-specific domain, market or objective.
+
 ## Route the request
 
 - Use [SEO Opportunity Map](../seo-opportunity-map/SKILL.md) when the user needs
   to compare a domain with search competitors, identify evidence-backed organic
-  opportunities, or decide which topics deserve further work.
+  opportunities, decide which topics deserve further work, or when the user gives a broad
+  request such as “improve our SEO.”
 - Use [SEO Content Brief](../seo-content-brief/SKILL.md) when the user already
   has a business topic or selected opportunity and needs a cited, writer-ready
   brief.
@@ -28,6 +33,9 @@ Do not execute both function Skills merely because both are installed. If the us
 wants the sequence, complete and review the opportunity map first; treat any
 selected topic and second paid plan as a new checkpoint before loading the
 content-brief workflow.
+
+Return the selected Skill, the artifact it will produce and why the other route
+does not own the current job. Do not make the user choose between tool names.
 
 ## Boundaries
 

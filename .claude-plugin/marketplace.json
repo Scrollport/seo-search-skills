@@ -1,0 +1,18 @@
+{
+  "name": "scrollport-seo-search",
+  "owner": {
+    "name": "Scrollport"
+  },
+  "metadata": {
+    "description": "Verified SEO and search Skills powered by Scrollport.",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "seo-search-skills",
+      "description": "Turn a website or brief into a cited organic opportunity map or evidence-led content brief.",
+      "version": "1.1.0",
+      "source": "./"
+    }
+  ]
+}

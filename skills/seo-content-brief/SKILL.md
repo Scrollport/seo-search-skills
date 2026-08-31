@@ -1,6 +1,6 @@
 ---
 name: seo-content-brief
-description: Turn a business topic into a cited, writer-ready content brief using current search-demand signals and public-source evidence.
+description: Turn a selected business topic into a cited, writer-ready SEO content brief using current demand, intent and public-source evidence. Use for "content brief," "SEO brief," "article outline," "brief this keyword," or turning a chosen organic opportunity into writing instructions.
 license: MIT
 metadata:
   scrollport-status: verified
@@ -15,6 +15,18 @@ are editorial recommendations.
 
 Use one authorized Scrollport connection and its `apps`, `discover`, `inspect`, `run`
 and `wallet` control tools. Never call a supplier directly.
+
+## Before starting
+
+Use any supplied product, positioning, audience, editorial or client brief
+before asking questions. If `.agents/product-marketing.md` exists, read it as
+context; confirm the task-specific audience, intended action, market and
+excluded claims rather than treating the file as current evidence.
+
+If the user has only a domain or a broad goal and has not selected a topic,
+route to `seo-opportunity-map` first. This Skill turns one chosen opportunity
+into a production brief; it does not decide the site's complete content
+strategy.
 
 ## Outcome boundary
 
@@ -158,6 +170,9 @@ Include:
   them;
 - completion checklist for the writer and editor.
 
+Use [the output template](assets/content-brief-template.md) or an equivalent
+structure so the brief is directly reusable outside the conversation.
+
 ## Deliverable and acceptance
 
 Return the brief plus exact tool ids, run ids, final costs, total spend and any
@@ -181,3 +196,14 @@ The Skill passes only when:
 
 A list of keywords and links without a coherent, supported editorial plan does
 not qualify.
+
+## Quality checks
+
+Before delivery, confirm that:
+
+- the angle solves the reader's job rather than restating the keyword;
+- the primary topic was chosen for audience and intent fit before volume;
+- every substantive external claim maps to a usable source and source role;
+- requested first-party expertise is explicit rather than fabricated; and
+- the outline, evidence ledger and acceptance criteria can be handed to a
+  writer without repeating the research pass.

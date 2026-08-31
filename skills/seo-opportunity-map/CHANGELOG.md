@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.0 — 2026-08-31
+
+- Add context-first intake and discriminating activation phrases.
+- Add a reusable output artifact template and human-readable quality checks.
+- Keep the verified tool route, cost ceiling and rehearsal evidence unchanged.
+
 ## 2.0.0 — 2026-08-31
 
 - Move the canonical package into the SEO and search category repository.

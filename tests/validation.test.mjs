@@ -133,3 +133,14 @@ test("renamed SEO Skills retain the former public ids as aliases", () => {
   assert(opportunity.aliases.includes("scrollport-organic-opportunity-map"));
   assert(brief.aliases.includes("scrollport-evidence-led-content-brief"));
 });
+
+test("the public package includes proof, templates and a Claude marketplace", () => {
+  const plugin = JSON.parse(readFileSync(join(root, ".claude-plugin", "plugin.json"), "utf8"));
+  const marketplace = JSON.parse(readFileSync(join(root, ".claude-plugin", "marketplace.json"), "utf8"));
+  assert.equal(plugin.name, "seo-search-skills");
+  assert.equal(plugin.version, marketplace.plugins[0].version);
+  assert.equal(marketplace.plugins[0].source, "./");
+  assert(/not\s+Customer-proven/.test(readFileSync(join(root, "examples", "organic-opportunity-map-verified-excerpt.md"), "utf8")));
+  assert(readFileSync(join(root, "skills", "seo-opportunity-map", "assets", "opportunity-map-template.md"), "utf8").includes("Research receipt"));
+  assert(readFileSync(join(root, "skills", "seo-content-brief", "assets", "content-brief-template.md"), "utf8").includes("Evidence and claim ledger"));
+});
