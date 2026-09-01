@@ -13,12 +13,11 @@ recovery boundary.
 
 | If you need to... | Use | Finished artifact |
 | --- | --- | --- |
-| Choose the right verified workflow | [`seo-search`](skills/seo-search/SKILL.md) | One explicit route and its boundary |
 | Compare a site with search competitors and choose what deserves work | [`seo-opportunity-map`](skills/seo-opportunity-map/SKILL.md) | Cited, prioritised opportunity map |
 | Turn a selected topic into a plan a writer can execute | [`seo-content-brief`](skills/seo-content-brief/SKILL.md) | Cited brief, claim ledger and outline |
 
-The router is deliberately thin. Install one function Skill when the job is
-already clear; install the router when an agent must choose between them.
+Install the complete package to make both outcomes available. Native Skill
+discovery selects the relevant outcome Skill for each request.
 
 ## Inspect the proof before installing
 
@@ -47,11 +46,8 @@ claim customer demand, rankings or Customer-proven status.
 
 ## Install
 
-Use the cross-agent installer for one Skill:
-
-```sh
-npx skills add Scrollport/seo-search-skills --skill seo-opportunity-map
-```
+Give your agent the package setup prompt from Scrollport to install every
+published outcome Skill.
 
 Or add the repository as a Claude Code marketplace and install the package:
 
