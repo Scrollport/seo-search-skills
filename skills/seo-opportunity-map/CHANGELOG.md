@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.0.0 — 2026-09-07
+
+- Combine market metrics, current search results and inspected page content into update/create/hold decisions.
+- Select sample ordering for the research question and use a bounded extraction fallback only when needed.
+- Add commercial-fit, source, owner and completion checks; reuse scoped budget approval.
+- Rehearse on a public trade-business brief; keep customer proof false.
+
 ## 2.1.0 — 2026-08-31
 
 - Add context-first intake and discriminating activation phrases.
