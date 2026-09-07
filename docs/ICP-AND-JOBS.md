@@ -1,4 +1,4 @@
-# ICP and jobs for SEO and search Skills
+# ICP and jobs for Search and SEO Skills
 
 Status: maintainer decision record; updated 7 September 2026 for the authorized launch release.
 

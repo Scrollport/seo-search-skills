@@ -1,4 +1,4 @@
-# SEO and search Skills
+# Search and SEO Skills
 
 Turn a client brief or website into defensible organic priorities and a
 writer-ready content plan without assembling separate SEO data subscriptions.
@@ -58,8 +58,8 @@ published outcome Skill.
 Or add the repository as a Claude Code marketplace and install the package:
 
 ```text
-/plugin marketplace add Scrollport/seo-search-skills
-/plugin install seo-search-skills@scrollport-seo-search
+/plugin marketplace add Scrollport/search-seo-skills
+/plugin install search-seo-skills@scrollport-search-seo
 ```
 
 For commit-pinned installation, readiness checks and approval boundaries, read
@@ -78,3 +78,9 @@ and an accepted complete rehearsal first.
 Published Skills live under `skills/`; unverified work belongs under
 `candidates/`. Read [the authoring contract](docs/AUTHORING.md),
 [contribution guide](CONTRIBUTING.md) and [security policy](SECURITY.md).
+
+The category repository was renamed from `seo-search-skills` to
+`search-seo-skills`; GitHub keeps existing repository links working. Outcome
+Skill ids are unchanged. When updating an older Claude plugin installation,
+replace its old marketplace/plugin registration with the renamed package so
+that the same outcome Skills are not installed twice.

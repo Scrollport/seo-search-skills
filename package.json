@@ -1,6 +1,6 @@
 {
-  "name": "@scrollport/seo-search-skills",
-  "version": "3.0.0",
+  "name": "@scrollport/search-seo-skills",
+  "version": "3.0.1",
   "private": true,
   "type": "module",
   "engines": {

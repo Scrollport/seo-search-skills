@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/Scrollport/seo-search-skills/blob/main/registry.schema.json",
+  "$id": "https://github.com/Scrollport/search-seo-skills/blob/main/registry.schema.json",
   "title": "Scrollport Skill registry",
   "type": "object",
   "additionalProperties": false,
@@ -8,7 +8,7 @@
   "properties": {
     "$schema": { "type": "string" },
     "schema_version": { "const": 2 },
-    "repository": { "const": "https://github.com/Scrollport/seo-search-skills" },
+    "repository": { "const": "https://github.com/Scrollport/search-seo-skills" },
     "skills": {
       "type": "array",
       "items": {

@@ -1,17 +1,17 @@
 {
-  "name": "scrollport-seo-search",
+  "name": "scrollport-search-seo",
   "owner": {
     "name": "Scrollport"
   },
   "metadata": {
-    "description": "Verified SEO and search Skills powered by Scrollport.",
-    "version": "3.0.0"
+    "description": "Verified Search and SEO Skills powered by Scrollport.",
+    "version": "3.0.1"
   },
   "plugins": [
     {
-      "name": "seo-search-skills",
+      "name": "search-seo-skills",
       "description": "Produce SEO page decisions, content briefs and observed ChatGPT visibility reports.",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "source": "./"
     }
   ]

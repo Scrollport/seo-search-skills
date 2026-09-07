@@ -3,13 +3,13 @@
   "schema_version": 2,
   "id": "seo-opportunity-map",
   "title": "Organic Opportunity Map",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "status": "verified",
   "customer_proven": false,
   "summary": "Turn search demand, current SERPs and inspected site content into prioritised decisions about which pages to improve or create.",
   "outcome": "A sourced page-action queue with commercial fit, current page ownership, concrete edits, rejected topics and a complete research receipt.",
   "boundary": "The Skill does not promise rankings, treat sampled keyword absence as proof of a gap, publish content, change a website or expand beyond the approved market and sample sizes.",
-  "category": "seo-search",
+  "category": "search-seo",
   "capabilities": [
     {
       "id": "seo-keyword-research",
