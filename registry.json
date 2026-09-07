@@ -14,6 +14,12 @@
       "path": "skills/seo-content-brief",
       "status": "verified",
       "customer_proven": false
+    },
+    {
+      "id": "ai-visibility-review",
+      "path": "skills/ai-visibility-review",
+      "status": "verified",
+      "customer_proven": false
     }
   ]
 }

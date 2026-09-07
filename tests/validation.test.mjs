@@ -115,13 +115,14 @@ test("build output excludes candidates", () => {
   assert(!source.skills.filter((entry) => entry.status === "verified").some((entry) => entry.path.startsWith("candidates/")));
 });
 
-test("the two SEO outcome Skills are canonical without a package router", () => {
+test("the three verified search outcomes are explicit in the registry", () => {
   const source = JSON.parse(readFileSync(join(root, "registry.json"), "utf8"));
   assert.deepEqual(
     source.skills.map(({ id, status, customer_proven }) => ({ id, status, customer_proven })),
     [
       { id: "seo-opportunity-map", status: "verified", customer_proven: false },
       { id: "seo-content-brief", status: "verified", customer_proven: false },
+      { id: "ai-visibility-review", status: "verified", customer_proven: false },
     ],
   );
 });

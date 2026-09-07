@@ -1,45 +1,26 @@
-# Organic Opportunity Map
+# Organic opportunity map
 
-## Decision
+## Decision summary
+Business, audience, market, objective, date, key finding and first action.
+Mark assumptions, internal rehearsal status and unavailable first-party analytics.
 
-- Target:
-- Market and language:
-- Business objective:
-- Recommended first action:
-- Why this action comes first:
+## Sampled baseline
+Domains, provider observations, ordering, row limits, market and dates.
+Do not call sampled absence a complete keyword gap.
 
-## Scope and limitations
+## Prioritised page actions
+| Priority | Buyer task | Demand/difficulty source | Existing/proposed URL | Update/create/hold | Inspected evidence | Exact edit and internal link | Owner/effort | Completion check |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
-- Samples and date:
-- Exclusions:
-- What sampled absence does not prove:
+## Rejected or deferred topics
+Topic, business-fit/intent/ownership reason, and the smallest missing evidence.
 
-## Target baseline and competitors
-
-| Subject | Provider observation | Agent interpretation | Evidence or run id |
-| --- | --- | --- | --- |
-
-## Prioritised opportunities
-
-| Priority | Topic | Evidence source | Demand | Difficulty | Intent | SERP features | Business fit | Confidence | Page decision or validation | Next action |
-| ---: | --- | --- | ---: | ---: | --- | --- | --- | --- | --- | --- |
-
-## Four-week action plan
-
-1.
-2.
-3.
-
-## Rejected or deferred candidates
-
-| Candidate | Decision | Reason | Evidence needed to reconsider |
-| --- | --- | --- | --- |
+## Evidence ledger
+| Claim | Source URL | Observation/date | Tool/run | Fact or inference | Limitation |
+| --- | --- | --- | --- | --- | --- |
 
 ## Research receipt
+| Tool | Run id | Input summary | Status | Final USD | Result reference |
+| --- | --- | --- | --- | ---: | --- |
 
-| Tool id | Run id | Input summary | Final cost |
-| --- | --- | --- | ---: |
-
-- Total spend:
-- Approved maximum:
-- Optional work skipped:
+Total, remaining approved budget, reused evidence and unassessed areas.

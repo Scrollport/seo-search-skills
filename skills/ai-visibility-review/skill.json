@@ -1,0 +1,112 @@
+{
+  "$schema": "../../skill.schema.json",
+  "schema_version": 2,
+  "id": "ai-visibility-review",
+  "title": "AI Visibility Review",
+  "version": "1.0.0",
+  "status": "verified",
+  "customer_proven": false,
+  "summary": "Observe repeated ChatGPT answers and cited sources, then produce a defensible client report and specific page improvements to test.",
+  "outcome": "A fixed prompt panel, per-provider observation ledger, inspected citation evidence and prioritised page actions with a repeatable retest plan.",
+  "boundary": "ChatGPT only. No universal visibility score, causal attribution, guaranteed uplift, autonomous publication or customer-validation claim.",
+  "category": "seo-search",
+  "capabilities": [
+    {
+      "id": "ai-search-visibility",
+      "tool_ids": [
+        "dataforseo.chatgpt-search",
+        "brightdata.chatgpt-search"
+      ]
+    },
+    {
+      "id": "web-search",
+      "tool_ids": [
+        "serper.google-search"
+      ]
+    },
+    {
+      "id": "website-content-extraction",
+      "tool_ids": [
+        "brightdata.web-scrape"
+      ]
+    },
+    {
+      "id": "web-page-extraction",
+      "tool_ids": [
+        "firecrawl.scrape"
+      ]
+    }
+  ],
+  "aliases": [],
+  "license": "MIT",
+  "instruction_path": "SKILL.md",
+  "dependencies": {
+    "scrollport_control_tools": [
+      "apps",
+      "discover",
+      "inspect",
+      "run",
+      "wallet"
+    ],
+    "catalog_tools": [
+      {
+        "tool_id": "dataforseo.chatgpt-search",
+        "required": true,
+        "purpose": "Observe exact-prompt ChatGPT answers and sources."
+      },
+      {
+        "tool_id": "brightdata.chatgpt-search",
+        "required": false,
+        "purpose": "Compare a second collection route for the same ChatGPT panel."
+      },
+      {
+        "tool_id": "serper.google-search",
+        "required": true,
+        "purpose": "Locate and contextualise source and owned pages."
+      },
+      {
+        "tool_id": "brightdata.web-scrape",
+        "required": true,
+        "purpose": "Verify the content underlying citations and recommendations."
+      },
+      {
+        "tool_id": "firecrawl.scrape",
+        "required": false,
+        "purpose": "Recover main content when the first extraction is incomplete; use only when needed and within budget."
+      }
+    ],
+    "connected_apps": []
+  },
+  "inputs": [
+    "Brand, domain aliases, buyer task and market",
+    "Competitors and a fixed branded/unbranded prompt panel",
+    "Repeat count, source-research limits and total spend ceiling"
+  ],
+  "outputs": [
+    "Per-prompt and per-provider answer, mention, recommendation and citation ledger",
+    "Coverage, failure and variability disclosure with sample denominators",
+    "Inspected page/source recommendations and a repeatable retest plan",
+    "Research receipt with exact run ids and costs"
+  ],
+  "cost": {
+    "currency": "USD",
+    "model": "Fixed prompt repetitions on one collection route, optional route comparison and bounded source research.",
+    "trial_safe_max_usd": "0.200000",
+    "notes": "Re-inspect. At 7 September 2026 prices, three prompts repeated three times through DataForSEO cost $0.050400; a matching Bright Data panel raises collection cost to $0.069300 before sources and retries. Neither guarantees citations."
+  },
+  "approvals": [
+    "Use existing authorisation for the business, market, bounded selection rules and total maximum; obtain missing approval before spending",
+    "Pause for a server confirmation request or a material scope or budget expansion",
+    "No publishing or website writes without explicit scope"
+  ],
+  "compatibility": [
+    "Agent Skills compatible host",
+    "One authorized Scrollport connection with apps, discover, inspect, run and wallet",
+    "A local file or conversation state for the checkpoint and final map"
+  ],
+  "evidence": {
+    "verified_at": "2026-09-07",
+    "review_due_at": "2026-10-07",
+    "summary_path": "evidence/2026-09-07-rehearsal.md"
+  }
+}

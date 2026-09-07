@@ -1,6 +1,6 @@
 # ICP and jobs for SEO and search Skills
 
-Status: maintainer decision record; observed 31 August 2026.
+Status: maintainer decision record; updated 7 September 2026 for the authorized launch release.
 
 ## Primary customer
 
@@ -23,18 +23,17 @@ system of record.
 
 | Rank | Customer job | Required artifact | Coverage | Evidence gate |
 | --- | --- | --- | --- | --- |
-| 1 | Decide where organic growth can come from | Prioritised opportunity map with source, confidence and next action | Verified: `seo-opportunity-map` | Public synthetic end-to-end rehearsal accepted at $0.081800 |
-| 2 | Turn a chosen opportunity into work a writer can execute | Brief with intent, angle, claims, sources, outline and acceptance criteria | Verified: `seo-content-brief` | Public synthetic end-to-end rehearsal accepted at $0.027200 |
-| 3 | Cluster a keyword universe and assign page ownership | Cluster and page map with create, refresh, merge or validate decisions | Not packaged | Needs a bounded contract, useful fixture and complete paid rehearsal |
-| 4 | Diagnose whether one existing page should be refreshed | Page diagnosis with technical/content evidence and ranked fixes | Not packaged | Needs exact page-audit plus search-evidence rehearsal |
-| 5 | Find link or AI-visibility opportunities | Link-gap or AI-visibility artifact | Deferred | Add only after direct demand and a repeatable decision output |
+| 1 | Decide where organic growth can come from | Prioritised page decisions with sources and completion checks | Verified: `seo-opportunity-map` | Latest internal rehearsal: two updates and one hold at $0.290400 |
+| 2 | Explain observed AI-search answers and what to improve | Fixed ChatGPT panel, citation evidence and page/source actions | Verified: `ai-visibility-review` | Primary panel 9/9; optional comparison 6/9; source checks and reviewed output at $0.069600 including both routes |
+| 3 | Turn a chosen opportunity into work a writer can execute | Brief with intent, angle, claims, sources, outline and acceptance criteria | Verified: `seo-content-brief` | Earlier synthetic rehearsal at $0.027200; available, not one of the three launch campaigns |
+| 4 | Cluster a keyword universe or conduct a technical page audit | Cluster map or technical diagnosis | Not separately packaged | Needs a distinct useful artifact and complete rehearsal |
+| 5 | Find link opportunities | Link-gap artifact | Deferred | Add only after direct demand and a repeatable decision output |
 
-## V1 bundle decision
+## Current bundle decision
 
-V1 contains one router and the two Verified outcome Skills above. This is a
-complete initial bundle for the current acquisition wedge because it covers the
-two adjacent decisions an agency or team can trial today: choose the work, then
-brief the selected work.
+The package contains three independently installable outcome Skills and no
+router Skill. Organic opportunities and AI visibility are the current search
+campaign jobs; the content brief remains available as an existing outcome.
 
 Do not add a broad SEO-audit Skill, a monolithic autonomous-SEO Skill or thin
 wrappers around individual API endpoints. A new function Skill must have:
@@ -48,13 +47,12 @@ wrappers around individual API endpoints. A new function Skill must have:
 
 ## Acquisition hypothesis
 
-- **Job promise:** from a client brief or website to defensible organic
-  priorities.
+- **Job promise:** defensible organic page priorities or a source-backed ChatGPT visibility diagnostic for a real buyer problem.
 - **Proof:** a finished opportunity map excerpt, exact observed provider spend,
   explicit uncertainty and no-ranking-guarantee boundary.
 - **Low-friction trial:** one target, one market, at most two selected
-  competitors and ten validated topics inside a $0.100000 inspected maximum.
-- **Next outcome:** turn one selected topic into a cited writer-ready brief.
+  competitors and ten validated topics inside a $0.500000 inspected maximum; AI collection has its own bounded prompt plan.
+- **Qualification:** demonstrated unresolved customer pain precedes the offer; an internal example is not customer validation.
 
 The campaign may begin only after the public repository, Skill page and proof
 route all present the same artifact and boundary. The first useful external
