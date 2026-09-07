@@ -1,7 +1,7 @@
 # Security policy
 
 Report a suspected vulnerability privately through
-[GitHub private vulnerability reporting](https://github.com/Scrollport/seo-search-skills/security/advisories/new)
+[GitHub private vulnerability reporting](https://github.com/Scrollport/search-seo-skills/security/advisories/new)
 or email `security@scrollport.com`. Do not open a public issue for a secret,
 credential, private customer record or exploitable workflow.
 

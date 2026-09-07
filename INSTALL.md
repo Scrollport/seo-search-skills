@@ -1,7 +1,7 @@
 ---
 name: seo-skill-install
 description: >-
-  Install and prepare the published Scrollport Skills in the SEO and search
+  Install and prepare the published Scrollport Skills in the Search and SEO
   package. Use when a setup prompt names this package.
 license: MIT
 ---
@@ -9,7 +9,7 @@ license: MIT
 # Install a Scrollport Skill package
 
 This guide installs every published outcome Skill from the
-[SEO and search repository](https://github.com/Scrollport/seo-search-skills), connects
+[Search and SEO repository](https://github.com/Scrollport/search-seo-skills), connects
 Scrollport when needed and checks that the Skills are ready to use. It does not
 run a Skill or spend wallet credit.
 
@@ -44,6 +44,16 @@ Scrollport connection and required dependencies have all been checked.
    `path`, `version`, dependency declarations and `instruction_path`. Do not
    silently substitute a later branch head or a different release.
 
+Before installing, separately resolve the repository's current default-branch
+SHA and read its registry and selected `skill.json` files as a withdrawal check.
+Both current and requested manifests must be `verified` with valid, current
+review dates. If the current entry is absent, withdrawn or overdue, stop that
+Skill's installation. If this check is unavailable, report it and do not claim
+readiness; never use an old pin to bypass it. Keep the requested installation
+SHA: do not silently upgrade it. If its version differs from the current
+manifest, report the update and do not attribute current verification to the
+older version. Check required live tools after connecting below.
+
 ### Choose one installation method
 
 Identify the current agent host, its active Skill directory and whether the
@@ -55,14 +65,14 @@ or updating host software.
 host, install each selected Skill at the exact package path and pin:
 
 ```sh
-gh skill install Scrollport/seo-search-skills skills/<skill-id> --pin <source-ref> --agent <agent> --scope <project-or-user>
+gh skill install Scrollport/search-seo-skills skills/<skill-id> --pin <source-ref> --agent <agent> --scope <project-or-user>
 ```
 
 **Open Agent Skills CLI.** If Node.js and `npx` are available, install each
 selected Skill from the exact commit URL. Add `-g` only for user scope:
 
 ```sh
-npx skills add https://github.com/Scrollport/seo-search-skills/tree/<source-ref>/skills/<skill-id> --skill <skill-id> --agent <agent>
+npx skills add https://github.com/Scrollport/search-seo-skills/tree/<source-ref>/skills/<skill-id> --skill <skill-id> --agent <agent>
 ```
 
 **Manual installation.** If neither installer supports the host, offer to copy

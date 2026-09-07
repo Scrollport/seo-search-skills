@@ -1,7 +1,7 @@
 {
   "$schema": "./registry.schema.json",
   "schema_version": 2,
-  "repository": "https://github.com/Scrollport/seo-search-skills",
+  "repository": "https://github.com/Scrollport/search-seo-skills",
   "skills": [
     {
       "id": "seo-opportunity-map",

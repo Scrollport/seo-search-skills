@@ -1,13 +1,13 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
-  "name": "seo-search-skills",
+  "name": "search-seo-skills",
   "description": "Verified SEO opportunity, content-brief and ChatGPT visibility Skills powered by Scrollport.",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": {
     "name": "Scrollport"
   },
-  "homepage": "https://github.com/Scrollport/seo-search-skills",
-  "repository": "https://github.com/Scrollport/seo-search-skills",
+  "homepage": "https://github.com/Scrollport/search-seo-skills",
+  "repository": "https://github.com/Scrollport/search-seo-skills",
   "license": "MIT",
   "skills": "./skills"
 }

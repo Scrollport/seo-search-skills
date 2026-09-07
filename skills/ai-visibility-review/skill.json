@@ -3,13 +3,13 @@
   "schema_version": 2,
   "id": "ai-visibility-review",
   "title": "AI Visibility Review",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "status": "verified",
   "customer_proven": false,
   "summary": "Observe repeated ChatGPT answers and cited sources, then produce a defensible client report and specific page improvements to test.",
   "outcome": "A fixed prompt panel, per-provider observation ledger, inspected citation evidence and prioritised page actions with a repeatable retest plan.",
   "boundary": "ChatGPT only. No universal visibility score, causal attribution, guaranteed uplift, autonomous publication or customer-validation claim.",
-  "category": "seo-search",
+  "category": "search-seo",
   "capabilities": [
     {
       "id": "ai-search-visibility",
