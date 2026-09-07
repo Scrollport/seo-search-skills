@@ -3,7 +3,7 @@ name: ai-visibility-review
 description: Produce a defensible client report from repeated ChatGPT answers, brand mentions and cited pages, then recommend source-backed improvements. Use for AI search visibility baselines, unreliable AI reporting or understanding which sources appear for real buyer questions.
 license: MIT
 metadata:
-  scrollport-status: draft
+  scrollport-status: verified
 ---
 
 # AI Visibility Review
@@ -13,7 +13,7 @@ questions, the sources it cited and concrete improvements worth testing. The
 observations are a sampled baseline, not a measure of all customer exposure.
 
 Use one authorised Scrollport connection with discover, inspect, run and wallet.
-Never call a supplier directly. This candidate measures ChatGPT only. Do not imply Google AI Overviews, Gemini,
+Never call a supplier directly. This Skill measures ChatGPT only. Do not imply Google AI Overviews, Gemini,
 Claude or Perplexity were tested.
 Reuse sufficient supplied exports; when new calls are prohibited, work within
 that evidence and mark missing provenance rather than recollecting it.

@@ -3,8 +3,8 @@
   "schema_version": 2,
   "id": "ai-visibility-review",
   "title": "AI Visibility Review",
-  "version": "0.1.0",
-  "status": "draft",
+  "version": "1.0.0",
+  "status": "verified",
   "customer_proven": false,
   "summary": "Observe repeated ChatGPT answers and cited sources, then produce a defensible client report and specific page improvements to test.",
   "outcome": "A fixed prompt panel, per-provider observation ledger, inspected citation evidence and prioritised page actions with a repeatable retest plan.",
@@ -39,7 +39,7 @@
   ],
   "aliases": [],
   "license": "MIT",
-  "instruction_path": "DRAFT.md",
+  "instruction_path": "SKILL.md",
   "dependencies": {
     "scrollport_control_tools": [
       "apps",
@@ -105,7 +105,8 @@
     "A local file or conversation state for the checkpoint and final map"
   ],
   "evidence": {
-    "verified_at": null,
-    "review_due_at": null
+    "verified_at": "2026-09-07",
+    "review_due_at": "2026-10-07",
+    "summary_path": "evidence/2026-09-07-rehearsal.md"
   }
 }

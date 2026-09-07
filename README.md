@@ -15,11 +15,17 @@ recovery boundary.
 | --- | --- | --- |
 | Compare a site with search competitors and choose what deserves work | [`seo-opportunity-map`](skills/seo-opportunity-map/SKILL.md) | Cited, prioritised opportunity map |
 | Turn a selected topic into a plan a writer can execute | [`seo-content-brief`](skills/seo-content-brief/SKILL.md) | Cited brief, claim ledger and outline |
+| Understand how ChatGPT describes a business for buyer questions | [`ai-visibility-review`](skills/ai-visibility-review/SKILL.md) | Repeated answer/citation baseline and specific page changes to test |
 
-Install the complete package to make both outcomes available. Native Skill
+Install the complete package to make all three outcomes available. Native Skill
 discovery selects the relevant outcome Skill for each request.
 
 ## Inspect the proof before installing
+
+- [Latest Organic Opportunity Map verification](skills/seo-opportunity-map/evidence/2026-09-07-rehearsal.md): two existing-page improvements and one product-fit hold, with current intent and page checks.
+- [AI Visibility Review verification](skills/ai-visibility-review/evidence/2026-09-07-rehearsal.md): a complete nine-answer ChatGPT primary panel and reviewed source-backed recommendations; the optional second-collector comparison is partial.
+
+Earlier public synthetic examples remain available for context:
 
 - [Organic Opportunity Map verified excerpt](examples/organic-opportunity-map-verified-excerpt.md)
   shows the accepted decision, evidence labels, cost and sampling limitation

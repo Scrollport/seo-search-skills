@@ -17,8 +17,8 @@
     },
     {
       "id": "ai-visibility-review",
-      "path": "candidates/ai-visibility-review",
-      "status": "draft",
+      "path": "skills/ai-visibility-review",
+      "status": "verified",
       "customer_proven": false
     }
   ]
