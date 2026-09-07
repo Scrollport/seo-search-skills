@@ -2,7 +2,7 @@
 
 7 September 2026. No publication or customer proof.
 
-Three frozen UK buyer prompts were repeated three times through each of two ChatGPT collection routes. DataForSEO returned 9/9 usable answers; Bright Data returned 6/9, with three unbilled terminal errors. The secondary comparison is partial. Model fields were unknown; collection-route differences do not establish independent sessions or another engine.
+Three frozen UK buyer prompts were repeated three times through each of two ChatGPT collection routes. DataForSEO returned 9/9 usable answers; Bright Data returned 6/9, with three unbilled terminal errors. The secondary comparison is partial. DataForSEO discovery repeat 2 returned model `gpt-5-6`; other model fields were unknown. Collection-route differences do not establish independent sessions or another engine.
 
 The report distinguishes branded comparison prompts from discovery, supplier recommendation from incidental legacy-brand references, and source-list presence from owned citations. In one discovery repeat the target's trade brand was conflated with retail context and had no owned citation; the other two DataForSEO repeats did cite the trade site. A separate refurbishment prompt produced incidental mentions without target supplier recommendations. These counts are observations, not customer exposure or uplift estimates.
 
@@ -14,7 +14,7 @@ Representative runs: DataForSEO discovery `775b6a60-2864-4070-826f-3e059371d148`
 
 The default now uses one fixed primary collection route; a second route is optional when collection consistency is part of the question. Do not silently substitute routes mid-panel. The Skill stays Draft pending review of complete scope and external usefulness.
 
-Original wording draws on [ai-seo](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/SKILL.md) and [geo-audit](https://github.com/zubair-trabzada/geo-seo-claude/blob/129809d38a36462485953f5bd697676d9d401d2f/skills/geo-audit/SKILL.md). Both source repositories exceeded 10,000 stars at review; no independent output comparison or superiority claim is made.
+Original wording draws on [ai-seo](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/ai-seo/SKILL.md) and [geo-audit](https://github.com/zubair-trabzada/geo-seo-claude/blob/129809d38a36462485953f5bd697676d9d401d2f/skills/geo-audit/SKILL.md). Both source repositories exceeded 10,000 stars at review. A later unblinded offline comparison applied the reference Skill to the same frozen evidence, reached similar core conclusions and exposed the corrected model-summary omission. No general superiority or collection-performance claim is made.
 
 Unrelated static checks covered an industrial legacy-product mention, source-free travel answers with a collection error, and a non-ChatGPT request. No company, prompt wording or provider failure percentage from this rehearsal is a general runtime rule.
 

@@ -29,7 +29,7 @@ Complete private run/input/cost ledger and client-readable output are retained w
 
 ## Quality basis and limits
 
-The revision uses original wording informed by the business/page ownership approach in [seo-plan](https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-plan/SKILL.md) and evidence limitations in [seo-audit](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/seo-audit/SKILL.md). These repositories exceeded 10,000 stars at review; popularity is not an output-quality measurement. No independent comparative evaluation or superiority claim.
+The revision uses original wording informed by the business/page ownership approach in [seo-plan](https://github.com/AgriciDaniel/claude-seo/blob/a1480c7e590b16001bd9dc1627eacdcd44d580f9/skills/seo-plan/SKILL.md) and evidence limitations in [seo-audit](https://github.com/coreyhaines31/marketingskills/blob/5b2c0007766c6a1cf1d53fd8fc73e979e0821022/skills/seo-audit/SKILL.md). These repositories exceeded 10,000 stars at review; popularity is not an output-quality measurement. A later unblinded offline comparison applied the reference Skills to the same frozen evidence and reached broadly similar practical decisions. It does not establish independent collection performance or general superiority.
 
 Unrelated static scenarios covered SaaS, ecommerce and local services, including supplied first-party data and complete page extraction. No test business, domain, industry-specific edit or fixed success count is embedded in runtime instructions. A second unrelated live business and external review remain needed to establish broader reliability and customer value.
 
