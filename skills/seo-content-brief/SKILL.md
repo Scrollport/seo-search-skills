@@ -6,6 +6,8 @@ metadata:
   scrollport-status: verified
 ---
 
+Use `get_run({ run_id, wait_seconds? })` to read a saved run before any retry; no idempotency key is accepted. Waiting defaults to 50 seconds and accepts 0–120. `run_tool` starts only and requires `tool_id`, `input` and one UUID per paid intent; retain that UUID for an exact retry after an uncertain start. Every state retains `run_id`.
+
 # Evidence-led Content Brief
 
 Turn a seed topic into an evidence package a professional writer can use. The
@@ -13,8 +15,8 @@ workflow combines current keyword signals with source research, then makes the
 agent show which claims are supported, which are vendor perspectives and which
 are editorial recommendations.
 
-Use one authorized Scrollport connection and its `apps`, `discover`, `inspect`, `run`
-and `wallet` control tools. Never call a supplier directly.
+Use one authorized Scrollport connection and its `search_tools`, `inspect_tool`, `run_tool`, `get_run`, `list_apps`
+and `get_wallet` control tools. Never call a supplier directly.
 
 ## Before starting
 

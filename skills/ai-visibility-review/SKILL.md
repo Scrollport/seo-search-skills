@@ -6,13 +6,15 @@ metadata:
   scrollport-status: verified
 ---
 
+Use `get_run({ run_id, wait_seconds? })` to read a saved run before any retry; no idempotency key is accepted. Waiting defaults to 50 seconds and accepts 0–120. `run_tool` starts only and requires `tool_id`, `input` and one UUID per paid intent; retain that UUID for an exact retry after an uncertain start. Every state retains `run_id`.
+
 # AI Visibility Review
 
 Give a business a reproducible record of what ChatGPT returned for selected buyer
 questions, the sources it cited and concrete improvements worth testing. The
 observations are a sampled baseline, not a measure of all customer exposure.
 
-Use one authorised Scrollport connection with discover, inspect, run and wallet.
+Use one authorised Scrollport connection with search_tools, inspect_tool, run_tool, get_run, list_apps and get_wallet.
 Never call a supplier directly. This Skill measures ChatGPT only. Do not imply Google AI Overviews, Gemini,
 Claude or Perplexity were tested.
 Reuse sufficient supplied exports; when new calls are prohibited, work within

@@ -3,7 +3,7 @@
   "schema_version": 2,
   "id": "seo-opportunity-map",
   "title": "Organic Opportunity Map",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "status": "verified",
   "customer_proven": false,
   "summary": "Turn search demand, current SERPs and inspected site content into prioritised decisions about which pages to improve or create.",
@@ -55,13 +55,7 @@
   "license": "MIT",
   "instruction_path": "SKILL.md",
   "dependencies": {
-    "scrollport_control_tools": [
-      "apps",
-      "discover",
-      "inspect",
-      "run",
-      "wallet"
-    ],
+    "scrollport_control_tools": ["search_tools", "inspect_tool", "run_tool", "get_run", "list_apps", "get_wallet"],
     "catalog_tools": [
       {
         "tool_id": "dataforseo.ranked-keywords",

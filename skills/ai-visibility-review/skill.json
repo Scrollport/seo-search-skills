@@ -3,7 +3,7 @@
   "schema_version": 2,
   "id": "ai-visibility-review",
   "title": "AI Visibility Review",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "status": "verified",
   "customer_proven": false,
   "summary": "Observe repeated ChatGPT answers and cited sources, then produce a defensible client report and specific page improvements to test.",
@@ -41,13 +41,7 @@
   "license": "MIT",
   "instruction_path": "SKILL.md",
   "dependencies": {
-    "scrollport_control_tools": [
-      "apps",
-      "discover",
-      "inspect",
-      "run",
-      "wallet"
-    ],
+    "scrollport_control_tools": ["search_tools", "inspect_tool", "run_tool", "get_run", "list_apps", "get_wallet"],
     "catalog_tools": [
       {
         "tool_id": "dataforseo.chatgpt-search",
