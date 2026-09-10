@@ -3,7 +3,7 @@
   "schema_version": 2,
   "id": "seo-content-brief",
   "title": "Evidence-led Content Brief",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "status": "verified",
   "customer_proven": false,
   "summary": "Validate a content topic with current search-demand signals and cited public sources, then produce a writer-ready brief with a supported angle, outline and measurable acceptance criteria.",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "instruction_path": "SKILL.md",
   "dependencies": {
-    "scrollport_control_tools": ["apps", "discover", "inspect", "run", "wallet"],
+    "scrollport_control_tools": ["search_tools", "inspect_tool", "run_tool", "get_run", "list_apps", "get_wallet"],
     "catalog_tools": [
       {
         "tool_id": "dataforseo.keyword-overview",

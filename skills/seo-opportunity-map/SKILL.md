@@ -6,14 +6,16 @@ metadata:
   scrollport-status: verified
 ---
 
+Use `get_run({ run_id, wait_seconds? })` to read a saved run before any retry; no idempotency key is accepted. Waiting defaults to 50 seconds and accepts 0–120. `run_tool` starts only and requires `tool_id`, `input` and one UUID per paid intent; retain that UUID for an exact retry after an uncertain start. Every state retains `run_id`.
+
 # Organic Opportunity Map
 
 Deliver a defensible queue of page decisions a business can act on. Combine
 measured search demand, current search results and the site's actual content.
 A keyword list alone is unfinished.
 
-Use one authorised Scrollport connection through discover, inspect, run and
-wallet. Discover by intent and inspect current contracts before spending;
+Use one authorised Scrollport connection through `search_tools`, `inspect_tool`, `run_tool`, `get_run`, `list_apps` and
+`get_wallet`. Discover by intent and inspect current contracts before spending;
 never bypass Scrollport to call a supplier directly.
 Reuse sufficient supplied exports; when new calls are prohibited, work within
 that evidence and mark missing provenance rather than recollecting it.
